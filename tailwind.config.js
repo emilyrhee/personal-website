@@ -6,6 +6,11 @@ export default {
       colors: {
         'beige': '#F8F0DC',
         'brown': '#7C594B'
+      },
+
+      fontFamily: {
+        'coiny': ['Coiny'],
+        'jetbrains': ['JetBrains Mono'],
       }
     },
   },

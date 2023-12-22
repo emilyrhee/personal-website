@@ -6,6 +6,12 @@
 
 </head>
 
+<script lang="ts">
+  import { NavBar } from '$lib'
+</script>
+
+<NavBar />
+
 <body class="bg-beige">
 
   <h1 class="text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>

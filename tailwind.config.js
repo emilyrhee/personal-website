@@ -5,7 +5,9 @@ export default {
     extend: {
       colors: {
         'beige': '#F8F0DC',
-        'brown': '#7C594B'
+        'brown': '#7C594B',
+        'light-brown': "#C9A278",
+        'green': "#737F71"
       },
 
       fontFamily: {

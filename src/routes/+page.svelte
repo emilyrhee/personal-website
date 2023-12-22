@@ -14,8 +14,11 @@
     computer science at Central Connecticut State University.
   </p>
 
-  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    Poop
+  <button class="bg-light-brown text-beige font-jetbrains py-2 px-4 rounded">
+    GitHub
+  </button>
+  <button class="bg-green text-beige font-jetbrains py-2 px-4 rounded">
+    LinkedIn
   </button>
 
 </body>

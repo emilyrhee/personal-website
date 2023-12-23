@@ -23,12 +23,18 @@
       dev, web dev, and embedded systems.
     </p>
 
-    <button class="bg-light-brown text-beige font-jetbrains py-2 px-4 rounded">
-      GitHub
-    </button>
-    <button class="bg-green text-beige font-jetbrains py-2 px-4 rounded">
-      LinkedIn
-    </button>
+    <a href="https://github.com/emilyrhee" target="_blank">
+      <button class="bg-light-brown text-beige font-jetbrains py-2 px-4 rounded">
+        GitHub
+      </button>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/emily-rhee-055731167/" target="_blank">
+      <button class="bg-green text-beige font-jetbrains py-2 px-4 rounded">
+        LinkedIn
+      </button>
+    </a>
+
   </div>
 
 </body>

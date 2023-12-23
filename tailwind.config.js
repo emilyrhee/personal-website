@@ -13,6 +13,7 @@ export default {
       fontFamily: {
         'coiny': ['Coiny'],
         'jetbrains': ['JetBrains Mono'],
+        'jetbrains-bold': ['JetBrains Mono', 'sans-serif; font-weight: 700']
       }
     },
   },

@@ -14,17 +14,19 @@
 
 <body class="bg-beige">
 
-  <h1 class="text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>
-  <p class="text-brown font-jetbrains">
-    I'm a passionate software developer pursuing a bachelor's degree in 
-    computer science at Central Connecticut State University.
-  </p>
+  <div class='px-56'>
+    <h1 class="pt-8 text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>
+    <p class="py-4 text-brown font-jetbrains">
+      I'm a passionate software developer pursuing a bachelor's degree in 
+      computer science at Central Connecticut State University.
+    </p>
 
-  <button class="bg-light-brown text-beige font-jetbrains py-2 px-4 rounded">
-    GitHub
-  </button>
-  <button class="bg-green text-beige font-jetbrains py-2 px-4 rounded">
-    LinkedIn
-  </button>
+    <button class="bg-light-brown text-beige font-jetbrains py-2 px-4 rounded">
+      GitHub
+    </button>
+    <button class="bg-green text-beige font-jetbrains py-2 px-4 rounded">
+      LinkedIn
+    </button>
+  </div>
 
 </body>

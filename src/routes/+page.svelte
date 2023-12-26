@@ -1,8 +1,8 @@
 <head>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Coiny&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 
 </head>
 
@@ -10,9 +10,10 @@
   import { NavBar } from '$lib'
 </script>
 
-<NavBar />
 
 <body class="bg-beige">
+
+  <NavBar />
 
   <div class='px-60'>
     <h1 class="pt-8 py-4 text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>
@@ -35,6 +36,15 @@
       </button>
     </a>
 
+    <h2 class="pt-8 text-brown text-5xl font-coiny">About me</h2>
+    <p class="py-4 text-brown font-jetbrains">
+      I started programming in 2021 after changing my major from nursing to 
+      computer science. I hated programming at first due to the steep learning 
+      curve. I thought about quitting multiple times. As I kept working hard 
+      at growing my skills, I now love programming as it allows me to have an 
+      artistic + creative outlet in a way that is so beautifully mathematical.
+    </p>   
+  
   </div>
 
 </body>

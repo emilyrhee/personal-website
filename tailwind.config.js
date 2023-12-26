@@ -14,6 +14,9 @@ export default {
         'coiny': ['Coiny'],
         'jetbrains': ['JetBrains Mono'],
         'jetbrains-bold': ['JetBrains Mono', 'sans-serif; font-weight: 700']
+      },
+      padding: {
+        '2px': '2px',
       }
     },
   },

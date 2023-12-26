@@ -11,40 +11,42 @@
 </script>
 
 
-<body class="bg-beige">
+<body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24">
 
   <NavBar />
 
-  <div class='px-60'>
-    <h1 class="pt-8 py-4 text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>
-    <h3 class="text-brown text-3xl font-jetbrains-bold">Software developer</h3>
-    <p class="py-4 text-brown font-jetbrains">
-      I am pursuing a bachelor's degree in computer science at Central 
-      Connecticut State University. My main interests in programming are game 
-      dev, web dev, and embedded systems.
-    </p>
+  <div class="py-10"></div>
 
-    <a href="https://github.com/emilyrhee" target="_blank">
-      <button class="bg-light-brown text-beige font-jetbrains py-2 px-4 rounded">
-        GitHub
-      </button>
-    </a>
-    
-    <a href="https://www.linkedin.com/in/emily-rhee-055731167/" target="_blank">
-      <button class="bg-green text-beige font-jetbrains py-2 px-4 rounded">
-        LinkedIn
-      </button>
-    </a>
+  <h1 class="pt-8 py-4 text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>
+  <h3 class="text-brown text-3xl font-jetbrains-bold">Software developer</h3>
+  <p class="py-4 text-lg text-brown font-jetbrains">
+    I am pursuing a bachelor's degree in computer science at Central 
+    Connecticut State University. My main interests in programming are game 
+    dev, web dev, and embedded systems.
+  </p>
 
-    <h2 class="pt-8 text-brown text-5xl font-coiny">About me</h2>
-    <p class="py-4 text-brown font-jetbrains">
-      I started programming in 2021 after changing my major from nursing to 
-      computer science. I hated programming at first due to the steep learning 
-      curve. I thought about quitting multiple times. As I kept working hard 
-      at growing my skills, I now love programming as it allows me to have an 
-      artistic + creative outlet in a way that is so beautifully mathematical.
-    </p>   
+  <a href="https://github.com/emilyrhee" target="_blank">
+    <button class="bg-light-brown text-lg text-beige font-jetbrains py-2 px-4 rounded">
+      GitHub
+    </button>
+  </a>
   
-  </div>
+  <a href="https://www.linkedin.com/in/emily-rhee-055731167/" target="_blank">
+    <button class="bg-green text-lg text-beige font-jetbrains py-2 px-4 rounded">
+      LinkedIn
+    </button>
+  </a>
+
+  <div class="py-20"></div>
+
+  <h2 class="pt-8 text-brown text-5xl font-coiny">About me</h2>
+  <p class="py-4 text-lg text-brown font-jetbrains">
+    I started programming in 2021 after changing my major from nursing to 
+    computer science. I hated programming at first due to the steep learning 
+    curve. I thought about quitting multiple times. As I kept working hard 
+    at growing my skills, I now love programming as it allows me to have an 
+    artistic + creative outlet in a way that is so beautifully mathematical.
+  </p>   
+
 
 </body>

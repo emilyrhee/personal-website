@@ -15,7 +15,7 @@
 
   <NavBar />
 
-  <div class="py-10"></div>
+  <div class="py-16"></div>
 
   <h1 class="pt-8 py-4 text-brown text-6xl font-coiny">Hi, I'm Emily Rhee!</h1>
   <h3 class="text-brown text-3xl font-jetbrains-bold">Software developer</h3>
@@ -46,7 +46,12 @@
     curve. I thought about quitting multiple times. As I kept working hard 
     at growing my skills, I now love programming as it allows me to have an 
     artistic + creative outlet in a way that is so beautifully mathematical.
-  </p>   
+  </p>
 
+  <div class="py-20"></div>
+
+  <h2 class="pt-8 text-brown text-5xl font-coiny">Projects</h2>
+  <p class="py-4 text-lg text-brown font-jetbrains">
+  </p>
 
 </body>

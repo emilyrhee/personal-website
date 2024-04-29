@@ -7,7 +7,7 @@ pkgs.mkShell {
 
   HOST = "64.176.199.73";
   PORT = 80;
-  ORIGIN = "http://emilyrhee.me/"
+  ORIGIN = "http://emilyrhee.me/";
 
   shellHook = ''
     git pull

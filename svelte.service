@@ -1,0 +1,13 @@
+[Unit]
+Description=SvelteKit Web Server
+After=network.target
+
+[Service]
+ExecStart=/root/personal-website/prod.sh
+ExecReload=/root/personal-website/prod.sh
+Type=notify
+Restart=always
+
+[Install]
+WantedBy=default.target
+RequiredBy=network.target

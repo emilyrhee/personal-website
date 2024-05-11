@@ -6,5 +6,6 @@ export ORIGIN="http://emilyrhee.me/"
 
 cd /home/emilyrhee/personal-website
 git pull
+npm install
 npm run build
 node build

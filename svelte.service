@@ -3,12 +3,12 @@ Description=SvelteKit Web Server
 After=network.target
 
 [Service]
-ExecStart=/root/personal-website/prod.sh
-ExecReload=/root/personal-website/prod.sh
+ExecStart=/home/emilyrhee/personal-website/prod.sh
+ExecReload=/home/emilyrhee/personal-website/prod.sh
 Type=notify
 Restart=always
-User=root
-Group=root
+User=emilyrhee
+Group=emilyrhee
 
 [Install]
 WantedBy=default.target

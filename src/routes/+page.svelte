@@ -21,8 +21,8 @@
   <h3 class="text-brown text-3xl font-jetbrains-bold">Software developer</h3>
   <p class="py-4 text-lg text-brown font-jetbrains">
     I am pursuing a bachelor's degree in computer science at Central 
-    Connecticut State University. My main interests in programming are game 
-    dev, web dev, and embedded systems.
+    Connecticut State University, and hope to continue in grad school. My main interest in tech is in game 
+    development, but I also dabble in web dev + embedded systems.
   </p>
 
   <a href="https://github.com/emilyrhee" target="_blank">
@@ -36,22 +36,5 @@
       LinkedIn
     </button>
   </a>
-
-  <div class="py-20"></div>
-
-  <h2 class="pt-8 text-brown text-5xl font-coiny">About me</h2>
-  <p class="py-4 text-lg text-brown font-jetbrains">
-    I started programming in 2021 after changing my major from nursing to 
-    computer science. I hated programming at first due to the steep learning 
-    curve. I thought about quitting multiple times. As I kept working hard 
-    at growing my skills, I now love programming as it allows me to have an 
-    artistic + creative outlet in a way that is so beautifully mathematical.
-  </p>
-
-  <div class="py-20"></div>
-
-  <h2 class="pt-8 text-brown text-5xl font-coiny">Projects</h2>
-  <p class="py-4 text-lg text-brown font-jetbrains">
-  </p>
 
 </body>

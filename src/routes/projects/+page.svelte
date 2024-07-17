@@ -8,10 +8,14 @@
   import { NavBar } from '$lib'
 </script>
 
-<body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-80">
+<body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
   <NavBar />
 
-  <div class="py-16"></div>
+  <div class="py-4 sm:py-8 md:py-16"></div>
 
-  <h1 class="pt-8 py-4 text-brown text-6xl font-coiny">Projects</h1>
+  <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-7/12 2xl:w-7/12 mx-auto">
+    <h1 class="pt-8 py-4 text-brown text-6xl font-coiny">Projects</h1>
+  </div>
+
+  
 </body>

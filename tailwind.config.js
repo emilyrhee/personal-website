@@ -6,7 +6,7 @@ export default {
       colors: {
         'beige': '#F8F0DC',
         'brown': '#7C594B',
-        'light-brown': "#C9A278",
+        'light-brown': "#a88763",
         'green': "#737F71"
       },
 

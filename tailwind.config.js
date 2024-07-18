@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'beige': '#F8F0DC',
+        'dark-beige': '#C5BEAE',
         'brown': '#7C594B',
         'light-brown': "#a88763",
         'green': "#737F71"

@@ -6,10 +6,11 @@
 
 <script lang="ts">
   import { NavBar } from '$lib'
+  import GitHub from '$lib/GitHub.svelte';
+  import LinkedIn from '$lib/LinkedIn.svelte';
 </script>
 
 <body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
-
   <NavBar />
 
   <div class="py-4 sm:py-8 md:py-16"></div>
@@ -24,30 +25,11 @@
     </p>
     
     <div class="relative">
-      <button class="bg-medium-brown text-lg text-beige font-jetbrains py-2 px-4 rounded relative transform translate-y-2">
-        GitHub
-      </button>
-
-      <a href="https://github.com/emilyrhee" target="_blank">
-        <button class="bg-light-brown text-lg text-beige font-jetbrains py-2 px-4 rounded absolute top-0 left-0">
-          GitHub
-        </button>
-      </a>
+      <GitHub />
 
       <div class="relative inline-block">
-
-        <button class="bg-dark-green text-lg text-beige font-jetbrains py-2 px-4 rounded absolute top-2 left-0">
-          LinkedIn
-        </button>
-
-        <a href="https://www.linkedin.com/in/emily-rhee-055731167/" target="_blank">
-          <button class="bg-green text-lg text-beige font-jetbrains py-2 px-4 rounded relative transform">
-            LinkedIn
-          </button>
-        </a>
+        <LinkedIn />
       </div>
-
     </div>
-
   </div>
 </body>

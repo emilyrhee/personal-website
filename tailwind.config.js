@@ -8,7 +8,9 @@ export default {
         'dark-beige': '#C5BEAE',
         'brown': '#7C594B',
         'light-brown': "#a88763",
-        'green': "#737F71"
+        'medium-brown':'#8F6954',
+        'green': "#737F71",
+        'dark-green': "#50624F"
       },
 
       fontFamily: {

@@ -19,21 +19,35 @@
     <h3 class="text-brown text-3xl font-jetbrains-bold">Software developer</h3>
     <p class="py-4 text-lg text-brown font-jetbrains">
       I am pursuing a bachelor's degree in computer science at Central 
-      Connecticut State University, and hope to continue in grad school. My main interest in tech is in game 
-      development, but I also dabble in web dev, systems programming, and embedded systems.
+      Connecticut State University and hope to continue in grad school. My main interest in tech is in game 
+      and web dev, but I also enjoy systems programming and embedded systems.
     </p>
     
-    <a href="https://github.com/emilyrhee" target="_blank">
-    <button class="bg-light-brown text-lg text-beige font-jetbrains py-2 px-4 rounded">
-      GitHub
-    </button>
-    </a>
-  
-    <a href="https://www.linkedin.com/in/emily-rhee-055731167/" target="_blank">
-      <button class="bg-green text-lg text-beige font-jetbrains py-2 px-4 rounded">
-        LinkedIn
+    <div class="relative">
+      <button class="bg-medium-brown text-lg text-beige font-jetbrains py-2 px-4 rounded relative transform translate-y-2">
+        GitHub
       </button>
-    </a>
-  </div>
 
+      <a href="https://github.com/emilyrhee" target="_blank">
+        <button class="bg-light-brown text-lg text-beige font-jetbrains py-2 px-4 rounded absolute top-0 left-0">
+          GitHub
+        </button>
+      </a>
+
+      <div class="relative inline-block">
+
+        <button class="bg-dark-green text-lg text-beige font-jetbrains py-2 px-4 rounded absolute top-2 left-0">
+          LinkedIn
+        </button>
+
+        <a href="https://www.linkedin.com/in/emily-rhee-055731167/" target="_blank">
+          <button class="bg-green text-lg text-beige font-jetbrains py-2 px-4 rounded relative transform">
+            LinkedIn
+          </button>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
 </body>

@@ -10,7 +10,8 @@ export default {
         'light-brown': "#a88763",
         'medium-brown':'#8F6954',
         'green': "#737F71",
-        'dark-green': "#50624F"
+        'dark-green': "#50624F",
+        'red': '#9B706A'
       },
 
       fontFamily: {
@@ -18,9 +19,6 @@ export default {
         'jetbrains': ['JetBrains Mono'],
         'jetbrains-bold': ['JetBrains Mono', 'sans-serif; font-weight: 700']
       },
-    //   padding: {
-    //     '2px': '2px',
-    //   }
     },
   },
   plugins: [],

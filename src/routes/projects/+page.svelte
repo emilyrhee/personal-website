@@ -8,6 +8,7 @@
   import NavBar from '$lib/NavBar.svelte'
   import RoomTour from '$lib/RoomTour.svelte';
   import GPT from '$lib/GPT.svelte'
+  import PersonalSite from '$lib/PersonalSite.svelte';
 </script>
 
 <body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
@@ -23,6 +24,10 @@
     <div class="py-4"></div>
 
     <GPT />
+
+    <div class="py-4"></div>
+
+    <PersonalSite />
 
     <div class="py-4"></div>
   </div>

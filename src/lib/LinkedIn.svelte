@@ -1,11 +1,11 @@
 <script>
   let topClass = 'top-0';
 
-  function handleMouseDown() {
+  function buttonDown() {
     topClass = 'top-2';
   }
 
-  function handleMouseUp() {
+  function buttonUp() {
     topClass = 'top-0';
   }
 </script>
@@ -14,10 +14,11 @@
   LinkedIn
 </button>
 
-<a href="https://github.com/emilyrhee" target="_blank">
+<a draggable="false" href="https://github.com/emilyrhee" target="_blank">
   <button
-    on:mousedown={handleMouseDown}
-    on:mouseup={handleMouseUp}
+    on:mousedown={buttonDown}
+    on:mouseup={buttonUp}
+    on:mouseleave={buttonUp}
     class={`bg-green text-lg text-beige font-jetbrains py-2 px-4 rounded absolute left-0 ${topClass}`}
   >
     LinkedIn

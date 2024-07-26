@@ -19,6 +19,8 @@
   <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-7/12 2xl:w-7/12 mx-auto">
     <h1 class="pt-8 pb-6 text-brown text-6xl font-coiny">Projects</h1>
 
+    <div class="py-4"></div>
+
     <RoomTour />
 
     <div class="py-4"></div>

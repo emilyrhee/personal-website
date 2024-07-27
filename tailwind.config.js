@@ -11,7 +11,8 @@ export default {
         'medium-brown':'#8F6954',
         'green': "#737F71",
         'dark-green': "#50624F",
-        'red': '#9B706A'
+        'red': '#9B706A',
+        'blue': '#7B8A8E'
       },
 
       fontFamily: {

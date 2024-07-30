@@ -9,7 +9,14 @@
   import RoomTour from '$lib/RoomTour.svelte';
   import GPT from '$lib/GPT.svelte'
   import PersonalSite from '$lib/PersonalSite.svelte';
-  import BridgingTheRift from '$lib/BridgingTheRift.svelte';
+  import Project from '$lib/Project.svelte';
+
+  const bridgingTheRift = {
+    name: 'Bridging the Rift',
+    color: 'blue',
+    description: 'A platformer game in which the player collects materials to help build bridges after a natural disaster. Made using Godot in C#.',
+    link: 'https://github.com/emilyrhee/bridging-the-rift'
+  };
 </script>
 
 <body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
@@ -34,7 +41,7 @@
 
     <div class="py-4"></div>
 
-    <BridgingTheRift />
+    <Project data={bridgingTheRift} />
 
     <div class="py-4"></div>
   </div>

@@ -6,17 +6,34 @@
 
 <script lang="ts">
   import NavBar from '$lib/NavBar.svelte'
-  import RoomTour from '$lib/RoomTour.svelte';
-  import GPT from '$lib/GPT.svelte'
-  import PersonalSite from '$lib/PersonalSite.svelte';
   import Project from '$lib/Project.svelte';
 
-  const bridgingTheRift = {
-    name: 'Bridging the Rift',
-    color: 'blue',
-    description: 'A platformer game in which the player collects materials to help build bridges after a natural disaster. Made using Godot in C#.',
-    link: 'https://github.com/emilyrhee/bridging-the-rift'
-  };
+  const projects = [
+    {
+      name: 'Bridging the Rift',
+      color: 'blue',
+      description: 'A platformer game in which the player collects materials to help build bridges after a natural disaster. Made using Godot in C#.',
+      link: 'https://github.com/emilyrhee/bridging-the-rift'
+    },
+    {
+      name: 'emilyrhee.me',
+      color: 'red',
+      description: 'The website you are on right now! Created using the Sveltekit framework and Tailwind CSS. Prototyped in Figma Design.',
+      link: 'https://github.com/emilyrhee/personal-site'
+    },
+    {
+      name: 'Room Tour',
+      color: 'green',
+      description: 'A game where I give a tour of my bedroom. The player walks into furniture to display a factoid about it. Made using Java + JavaFX.',
+      link: 'https://github.com/emilyrhee/room-tour'
+    },
+    {
+      name:'GPT',
+      color: 'light-brown',
+      description: 'A group project to create a generative pre-trained transformer which takes input text data, trains off of it, and outputs text of a similar style. Made using Python + PyTorch.',
+      link: 'https://github.com/CCSU-AI-2024/gpt'
+    }
+  ];
 </script>
 
 <body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
@@ -29,20 +46,8 @@
 
     <div class="py-4"></div>
 
-    <RoomTour />
-
-    <div class="py-4"></div>
-
-    <GPT />
-
-    <div class="py-4"></div>
-
-    <PersonalSite />
-
-    <div class="py-4"></div>
-
-    <Project data={bridgingTheRift} />
-
-    <div class="py-4"></div>
+    {#each projects as project}
+      <Project {project} />
+    {/each}
   </div>
 </body>

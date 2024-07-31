@@ -15,9 +15,11 @@
       }
     }
   }
-
   function showDescription() {
     isDescriptionFull = true;
+  }
+  function hideDescription() {
+    isDescriptionFull = false;
   }
 </script>
 
@@ -28,11 +30,14 @@
     <p class="py-2 text-beige font-jetbrains">
       {description} 
       {#if !isDescriptionFull}
-        <span>
-          <button class="underline" on:click={showDescription}>
-            ...more
+        <button class="underline" on:click={showDescription}>...more</button>
+      {/if}
+      {#if isDescriptionFull}
+        <div>
+          <button class="underline" on:click={hideDescription}>
+            Show less
           </button>
-        </span>
+        </div>
       {/if}
     </p>
     <a href="{project.link}" target="_blank" class="underline">GitHub</a>

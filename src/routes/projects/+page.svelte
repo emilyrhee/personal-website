@@ -11,25 +11,25 @@
   const projects = [
     {
       name: 'Bridging the Rift',
-      color: 'blue',
+      color: 'bg-blue',
       description: 'A platformer game in which the player collects materials to help build bridges after a natural disaster. Made using Godot in C#.',
       link: 'https://github.com/emilyrhee/bridging-the-rift'
     },
     {
       name: 'emilyrhee.me',
-      color: 'red',
+      color: 'bg-red',
       description: 'The website you are on right now! Created using the Sveltekit framework and Tailwind CSS. Prototyped in Figma Design.',
       link: 'https://github.com/emilyrhee/personal-site'
     },
     {
       name: 'Room Tour',
-      color: 'green',
+      color: 'bg-green',
       description: 'A game where I give a tour of my bedroom. The player walks into furniture to display a factoid about it. Made using Java + JavaFX.',
       link: 'https://github.com/emilyrhee/room-tour'
     },
     {
       name:'GPT',
-      color: 'light-brown',
+      color: 'bg-light-brown',
       description: 'A group project to create a generative pre-trained transformer which takes input text data, trains off of it, and outputs text of a similar style. Made using Python + PyTorch.',
       link: 'https://github.com/CCSU-AI-2024/gpt'
     }

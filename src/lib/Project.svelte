@@ -4,7 +4,7 @@
   export let project;
 </script>
 
-<div class="relative bg-{project.color} text-lg text-beige font-jetbrains p-12 rounded-md">
+<div class="relative {project.color} text-lg text-beige font-jetbrains p-12 rounded-md">
     <Bolts />
     
     <h2 class="text-beige text-4xl font-coiny">{project.name}</h2>

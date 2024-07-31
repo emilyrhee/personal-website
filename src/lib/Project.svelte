@@ -40,7 +40,7 @@
         </div>
       {/if}
     </p>
-    <a href="{project.link}" target="_blank" class="underline">GitHub</a>
+    <a href="{project.link}" target="_blank" class="underline font-bold">GitHub</a>
 </div>
 
 <div class="py-4"></div>

@@ -13,6 +13,7 @@
       name: 'Bridging the Rift',
       color: 'bg-blue',
       description: 'A platformer game in which the player collects materials to help build bridges after a natural disaster. Made using Godot in C#.',
+      video: '/btr.mp4',
       link: 'https://github.com/emilyrhee/bridging-the-rift'
     },
     {

@@ -34,6 +34,13 @@
       {/if}
       {#if isDescriptionFull}
         <div>
+          {#if project.video}
+            <div class="py-1"></div>
+            <video controls muted class="rounded-md">
+              <source src="{project.video}" type="video/mp4">
+            </video>
+            <div class="py-1"></div>
+          {/if}
           <button class="underline" on:click={hideDescription}>
             Show less
           </button>

@@ -25,6 +25,7 @@
       name: 'Room Tour',
       color: 'bg-green',
       description: 'A game where I give a tour of my bedroom. The player walks into furniture to display a factoid about it. Made using Java + JavaFX.',
+      video: '/roomtour.mp4',
       link: 'https://github.com/emilyrhee/room-tour'
     },
     {

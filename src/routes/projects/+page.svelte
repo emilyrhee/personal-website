@@ -6,7 +6,7 @@
 
 <script lang="ts">
   import NavBar from '$lib/NavBar.svelte'
-  import Project from '$lib/Project.svelte';
+  import Project from './Project.svelte';
 
   const projects = [
     {

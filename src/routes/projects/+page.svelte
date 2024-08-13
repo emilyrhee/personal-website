@@ -1,14 +1,19 @@
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Coiny&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-</head>
-
 <script lang="ts">
-  import NavBar from '$lib/NavBar.svelte'
-  import Project from './Project.svelte';
-  import projects from '$lib/projects.json';
+  import NavBar from "$lib/NavBar.svelte";
+  import Project from "./Project.svelte";
+  import projects from "$lib/projects.json";
+
+  const colors = ["bg-blue", "bg-red", "bg-green", "bg-light-brown"];
 </script>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Coiny&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
 
 <body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
   <NavBar />
@@ -20,8 +25,8 @@
 
     <div class="py-4"></div>
 
-    {#each projects as project}
-      <Project {project} />
+    {#each projects as project, index}
+      <Project {project} {colors} {index} />
     {/each}
   </div>
 </body>

@@ -6,8 +6,20 @@
 
 <script lang="ts">
   import { NavBar } from '$lib'
-  import GitHub from '$lib/GitHub.svelte';
-  import LinkedIn from '$lib/LinkedIn.svelte';
+  import Button from '$lib/Button.svelte';
+
+  const github = {
+      label: 'GitHub',
+      color: 'bg-light-brown',
+      shading: 'bg-medium-brown',
+      link: 'https://github.com/emilyrhee'
+  };
+  const linkedin = {
+      label: 'LinkedIn',
+      color: 'bg-green',
+      shading: 'bg-dark-green',
+      link: 'https://www.linkedin.com/in/emily-rhee-055731167/'
+  };
 </script>
 
 <body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
@@ -25,10 +37,10 @@
     </p>
     
     <div class="relative">
-      <GitHub />
+      <Button button={github} />
 
       <div class="relative inline-block">
-        <LinkedIn />
+        <Button button={linkedin}/>
       </div>
     </div>
   </div>

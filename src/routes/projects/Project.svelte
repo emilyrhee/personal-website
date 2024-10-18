@@ -11,10 +11,8 @@
   $: {
     if (isDescriptionFull) {
       description = project.description;
-    } else {
-      if (project.description.length > max) {
+    } else if (project.description.length > max) {
         description = project.description.substring(0, max);
-      }
     }
   }
   function showDescription() {

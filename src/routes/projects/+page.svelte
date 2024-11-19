@@ -15,7 +15,7 @@
   />
 </svelte:head>
 
-<div class="md:px-8 lg:px-24 xl:px-32 2xl:px-48">
+<div class="px-4 sm:px-6 md:px-8 lg:px-24 xl:px-32 2xl:px-48">
   <NavBar />
 
   <div class="py-4 sm:py-8 md:py-16"></div>

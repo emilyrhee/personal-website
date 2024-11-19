@@ -6,16 +6,16 @@
   const colors = ["bg-blue", "bg-red", "bg-green", "bg-light-brown"];
 </script>
 
-<head>
+<svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link
     href="https://fonts.googleapis.com/css2?family=Coiny&family=JetBrains+Mono:wght@400;600&display=swap"
     rel="stylesheet"
   />
-</head>
+</svelte:head>
 
-<body class="bg-beige px-4 sm:px-6 md:px-8 lg:px-16 xl:px-32 2xl:px-48">
+<div class="md:px-8 lg:px-24 xl:px-32 2xl:px-48">
   <NavBar />
 
   <div class="py-4 sm:py-8 md:py-16"></div>
@@ -29,4 +29,4 @@
       <Project {project} {colors} {index} />
     {/each}
   </div>
-</body>
+</div>

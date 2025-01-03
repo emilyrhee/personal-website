@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "@fontsource/jetbrains-mono";
 
 @layer base {
   h1 {
@@ -20,5 +21,9 @@
   }
   h6 {
     @apply text-xl;
+  }
+
+  body {
+    @apply font-mono;
   }
 }

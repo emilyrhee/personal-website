@@ -6,7 +6,7 @@
     </h2>
     <h4 class="text-white">Software Developer</h4>
     <p class="text-white">
-      Studying computer science & mathematics @ CCSU.<br>
+      Computer Science & Mathematics major @ CCSU.<br>
       Interested in computer graphics for grad school.<br>
       I also like web dev, game dev, & embedded systems.<br>
     </p>

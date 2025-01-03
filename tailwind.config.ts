@@ -7,7 +7,11 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        mono: ["'JetBrains Mono'", "monospace"],
+      }
+    },
   },
 
   plugins: [typography, forms, containerQueries],

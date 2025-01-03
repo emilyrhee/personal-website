@@ -2,6 +2,8 @@
 
 pkgs.mkShell {
   packages = builtins.attrValues {
-    inherit (pkgs) nodejs;
+    inherit (pkgs)
+    pnpm
+    nodejs;
   };
 }

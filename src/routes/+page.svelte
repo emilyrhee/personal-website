@@ -4,16 +4,13 @@
 
 <Navbar />
 
-<div class="absolute
-            top-0 left-0 right-0 bottom-0
-            flex flex-col
-            items-center
-            justify-center
-            h-screen"
+<div class="absolute top-0 left-0 right-0 bottom-0
+            flex flex-col items-center justify-center
+            h-screen px-2 sm:px-0"
 >
   <div class="flex flex-col items-start">
     <h2 class="text-white">
-      <span class="text-emerald-500 font-bold">></span> 
+      <span class="text-emerald-500 font-bold">> </span>
       Emily Rhee
     </h2>
     <h4 class="text-white">Software Developer</h4>

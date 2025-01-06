@@ -13,7 +13,7 @@
       <span class="text-emerald-500 font-bold">> </span>
       Emily Rhee
     </h2>
-    <h4 class="text-white">Software Developer</h4>
+    <h4 class="text-white pb-2">Software Developer</h4>
     <p class="text-white">
       Computer Science & Mathematics major @ CCSU.<br>
       Interested in computer graphics for grad school.<br>

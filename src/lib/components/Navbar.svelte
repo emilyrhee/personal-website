@@ -3,7 +3,7 @@
   const navLinks = [
     { href: "/", label: "/Home" },
     { href: "/projects", label: "/Projects" },
-    { href: "/bug-collection", label: "/Bug-Collection" }
+    // { href: "/bug-collection", label: "/Bug-Collection" }
   ];
 </script>
 

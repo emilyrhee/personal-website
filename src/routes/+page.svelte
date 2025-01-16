@@ -1,5 +1,6 @@
 <script lang="ts">
   import Navbar from '$lib/components/Navbar.svelte';
+  import TerminalHeader from '$lib/components/TerminalHeader.svelte';
 </script>
 
 <Navbar />
@@ -9,10 +10,7 @@
             h-screen px-2 sm:px-0"
 >
   <div class="flex flex-col items-start">
-    <h2 class="text-white">
-      <span class="text-emerald-500 font-bold">> </span>
-      Emily Rhee
-    </h2>
+    <TerminalHeader text="Emily Rhee" />
     <h4 class="text-white pb-2">Software Developer</h4>
     <p class="text-white">
       Computer Science & Mathematics major @ CCSU.<br>

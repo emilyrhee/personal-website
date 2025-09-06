@@ -3,14 +3,13 @@
   const navLinks = [
     { href: "/", label: "/Home" },
     { href: "/projects", label: "/Projects" },
-    // { href: "/bug-collection", label: "/Bug-Collection" }
   ];
 </script>
 
 <nav class="sticky top-0
             flex items-center justify-center
             py-5 z-10
-            text-cyan-500 bg-neutral-900"
+            text-cyan-400 bg-neutral-900"
 >
   <!-- Desktop Links -->
   <div class="hidden lg:flex space-x-10">
@@ -22,7 +21,7 @@
   <!-- Hamburger Button -->
   <div class="block lg:hidden">
     <button on:click={() => isMenuOpen = !isMenuOpen} 
-      class="text-cyan-500" aria-label="Toggle menu"
+      class="text-cyan-400" aria-label="Toggle menu"
     >
       <i class="fa-solid fa-bars fa-xl"></i>
     </button>
@@ -33,7 +32,7 @@
     <div class="flex flex-col items-start
                 lg:hidden
                 absolute top-16 right-0
-                bg-neutral-900 text-cyan-500
+                bg-neutral-900 text-cyan-400
                 w-full
                 space-y-5 p-5
                 text-center"
@@ -60,5 +59,13 @@
     >
       <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
     </a>
+    <a
+      href="https://www.youtube.com/@gettingtoone"
+      aria-label="Visit Emily Rhee's YoutTube Channel, Getting to One"
+      target="_blank" rel="noopener noreferrer"
+    >
+      <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i>
+    </a>
+
   </div>
 </nav>

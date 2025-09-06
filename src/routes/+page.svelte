@@ -11,11 +11,9 @@
 >
   <div class="flex flex-col items-start">
     <TerminalHeader text="Emily Rhee" />
-    <h4 class="text-white pb-2">Software Developer</h4>
-    <p class="text-white">
-      Computer Science & Mathematics major @ CCSU.<br>
-      Interested in computer graphics for grad school.<br>
-      I also like web dev, game dev, & embedded systems.<br>
+    <p class="text-white pt-3">
+      Mathematics & Computer Science graduate from CCSU.<br>
+      I like to develop software.<br>
     </p>
   </div>
 </div>

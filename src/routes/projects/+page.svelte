@@ -24,17 +24,17 @@
 
     {#each projects as project}
     <div class="
-        border-2
-        border-transparent
-        hover:border-emerald-500
-        w-full
-        duration-150
+      border-2
+      border-transparent
+      hover:border-emerald-500
+      w-full
+      duration-150
     ">
     <ProjectCard
-        imageSrc={project.imageSrc} 
-        title={project.title} 
-        description={project.description} 
-      />
+      imageSrc={project.imageSrc} 
+      title={project.title} 
+      description={project.description} 
+    />
     </div>
     {/each}
   </div>

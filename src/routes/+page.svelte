@@ -11,7 +11,7 @@
 >
   <div class="flex flex-col items-start">
     <TerminalHeader text="Emily Rhee" />
-    <p class="text-white pt-3">
+    <p class="pt-3">
       Mathematics & Computer Science graduate from CCSU.<br>
       I like to develop software.<br>
       Linux enthusiast 🐧

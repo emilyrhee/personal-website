@@ -50,21 +50,21 @@
       aria-label="Visit Emily Rhee's GitHub profile"
       target="_blank" rel="noopener noreferrer"
     >
-      <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-github fa-xl text-neutral-200"></i>
     </a>
     <a
       href="https://www.linkedin.com/in/erhee"
       aria-label="Visit Emily Rhee's LinkedIn profile"
       target="_blank" rel="noopener noreferrer"
     >
-      <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-linkedin fa-xl text-neutral-200"></i>
     </a>
     <a
       href="https://www.youtube.com/@gettingtoone"
       aria-label="Visit Emily Rhee's YoutTube Channel, Getting to One"
       target="_blank" rel="noopener noreferrer"
     >
-      <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-youtube fa-xl text-neutral-200"></i>
     </a>
 
   </div>

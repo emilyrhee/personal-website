@@ -10,6 +10,15 @@ export default {
     extend: {
       fontFamily: {
         mono: ["'JetBrains Mono'", "monospace"],
+      },
+      colors: {
+        'dracula-bg': '#282a36',
+        'dracula-comment': '#6272a4'
+      },
+      textColor: {
+        'dracula-green': '#50fa7b',
+        'dracula-fg': '#f8f8f2',
+        'dracula-cyan': '#8be9fd'
       }
     },
   },

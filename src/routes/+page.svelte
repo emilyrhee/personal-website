@@ -14,7 +14,7 @@
     <p class="pt-3">
       Mathematics & Computer Science graduate from CCSU.<br>
       I like to develop software.<br>
-      Linux enthusiast 🐧
+      Linux enjoyer (NixOS) 🐧
     </p>
   </div>
 </div>

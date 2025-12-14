@@ -4,15 +4,18 @@
 
   **Parameters**
   `text` - Text to go in header.
-  `color` - (Optional) Color class for the '>'. Defaults to text-emerald-500.
+  `textColor` - (Optional) Color class for the text. Defaults to text-neutral-200.
+  `arrowColor` - (Optional) Color class for the '>'. Defaults to text-emerald-500.
+  `headerSize` - (Optional) HTML tag for the header. Defaults to 'h3'.
 -->
 <script>
   export let text;
   export let textColor = "text-neutral-200";
   export let arrowColor = 'text-emerald-500'; // Default color
+  export let headerSize = 'h3'; // Default header size
 </script>
 
-<h3 class="{textColor}">
+<svelte:element this={headerSize} class={textColor}>
   <span class="{arrowColor} font-extrabold">> </span>
   {text}
-</h3>
+</svelte:element>

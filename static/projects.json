@@ -3,18 +3,21 @@
       "imageSrc": "/gettingtoone.png",
       "title": "Getting to One",
       "description": "Educational videos about math & computer science",
-      "slug": "getting-to-one"
+      "slug": "getting-to-one",
+      "link": "/projects/getting-to-one"
     },
     {
       "imageSrc": "/btr.png",
       "title": "Bridging the Rift",
       "description": "A 2D platformer game",
-      "slug": "bridging-the-rift"
+      "slug": "bridging-the-rift",
+      "link": "/projects/bridging-the-rift"
     },
     {
       "imageSrc":"/roomtour.png",
       "title": "Room Tour",
       "description": "Emily gives you a virtual tour of her bedroom",
-      "slug": "room-tour"
+      "slug": "room-tour",
+      "link": "/projects/room-tour"
     }
 ]

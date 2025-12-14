@@ -17,7 +17,7 @@
     @apply text-3xl;
   }
   h5 {
-    @apply text-2xl;
+    @apply text-2xl text-neutral-200
   }
   h6 {
     @apply text-xl;
@@ -29,5 +29,9 @@
 
   body {
     @apply font-mono;
+  }
+
+  a {
+    @apply text-cyan-400 hover:text-cyan-500;
   }
 }

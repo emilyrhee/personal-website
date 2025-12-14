@@ -8,6 +8,7 @@
     imageSrc: string;
     title: string;
     description: string;
+    link: string; // Add this property
   }
   let projects: Project[] = [];
   onMount(async () => {
@@ -23,19 +24,20 @@
     <TerminalHeader text="Projects" />
 
     {#each projects as project}
-    <div class="
+    <a href={project.link} class="
       border-2
       border-transparent
       hover:border-emerald-500
       w-full
       duration-150
+      block
     ">
-    <ProjectCard
-      imageSrc={project.imageSrc} 
-      title={project.title} 
-      description={project.description} 
-    />
-    </div>
+      <ProjectCard
+        imageSrc={project.imageSrc} 
+        title={project.title} 
+        description={project.description} 
+      />
+    </a>
     {/each}
   </div>
 </div>

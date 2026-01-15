@@ -8,7 +8,7 @@
     imageSrc: string;
     title: string;
     description: string;
-    link: string; // Add this property
+    link: string;
   }
   let projects: Project[] = [];
   onMount(async () => {

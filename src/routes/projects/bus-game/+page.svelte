@@ -9,12 +9,22 @@
   <div class="flex flex-col items-start gap-6">
     <TerminalHeader text="Bus Game" />
     <p>
-      I am a train enthusiast who had the misfortunate of being born and
-      raised in the US of A. However, due to the car-dependent infrastructure
-      of most US cities, we can't just start putting trains everywhere. I have
-      a hunch that investment in buses is the way to go for improving the state of US public
-      transportation, and this is why I made this game... a title better than
-      "Bus Game" pending.
+     In 2023, I went on a trip to my parents' home city: Daejeon,
+     South Korea. I didn't need to have a car to get anywhere. 
+     However, I found it to still be fairly car-dependent society.
+     Most adults I met owned a car. 
+     Howeever, I got around just fine by
+     walking, taking the bus, and taxi. 
+    </p>
+    <p>
+      Since returning to the States, I haven't been able to shake my experience
+      in Daejeon. Train-freaks like myself often romanticize rail, but here 
+      were buses getting the job done. The density of buildings 
+      and effective zoning in Daejeon also plays an important role in the 
+      efficacy of their public transportation. Urban-sprawl cities in the US 
+      lack both of these facets. Regardless, Daejeon gave me hope for public 
+      transportation in the US. It got me thinking: what would it take for me to 
+      use the bus in my hometown?
     </p>
     <p>
       In this game, the player tries to maximize the probability that a

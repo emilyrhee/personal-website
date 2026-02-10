@@ -10,12 +10,15 @@
     <TerminalHeader text="Room Tour" />
     <p>
       Room Tour was the final project for my Object-Oriented Programming
-      class in CT State Community College. This was an awesome project for me
+      class in CT State Community College. We were tasked with using
+      JavaFX for this one. This was an awesome project for me
       because I had been interested in game development since I was a
-      wee lassie, and this was the first game I made. Is it a little scuffed? 
-      Yes, but I hardly knew how to program. Plus, I made the art, too.
-    </p>
+      little girl. My delusions of grandeur were finally becoming a reality!
     <!-- svelte-ignore a11y_media_has_caption -->
     <video src="/roomtour.mp4" controls></video>
+    <p>
+      All of the art was made by me, and yes, all of the little tiny details 
+      were real items in my room.
+    </p>
   </div>
 </div>

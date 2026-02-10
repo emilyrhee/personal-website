@@ -18,6 +18,12 @@
     <!-- svelte-ignore a11y_media_has_caption -->
     <video src="/btr.mp4" controls></video>
     <p>
+      I was largely inspired by one of my favorite video games, Super Mario
+      Bros 3. I love pixel art, a medium that has been abandoned by big game
+      companies in favor of 3D graphics. That is why the indie game scene is 
+      important to me; it keeps pixel art alive.
+    </p>
+    <p>
       I am pretty proud of how I made the art, produced the music + sound
       effects, and coded the game solo. The song in the game is the first
       I ever produced! I used FL Studio.
